@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/ab-bond-proxy"
+  to = "/.netlify/functions/ab-bond-proxy"
+  status = 200
